@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RecipeCoreWidget</class>
+ <widget class="QWidget" name="RecipeCoreWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>661</width>
+    <height>617</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="RecipeCoreUnitsWidget" name="unitsWidget" native="true"/>
+     </item>
+     <item>
+      <widget class="RecipeCoreIngredientsInputWidget" name="ingredientsWidget" native="true"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>RecipeCoreUnitsWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">recipecoreunitswidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RecipeCoreIngredientsInputWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">recipecoreingredientsinputwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

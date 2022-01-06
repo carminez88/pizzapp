@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/sign-add-icon.png</file>
+        <file>icons/ingredients-icon.png</file>
+        <file>icons/ok-icon.png</file>
+    </qresource>
+</RCC>
